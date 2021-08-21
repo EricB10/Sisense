@@ -1,0 +1,207 @@
+{
+    "card": {
+        "style": "",
+        "script": "",
+        "title": "",
+        "showCarousel": true,
+        "body": [
+            {
+                "type": "Container",
+                "items": [
+                    {
+                        "type": "ColumnSet",
+                        "spacing": "small",
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "spacing": "medium",
+                                        "text": "{panel:Avg}",
+                                        "color": "grey",
+                                        "size": "",
+                                        "horizontalAlignment": "center",
+                                        "weight": "default"
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "spacing": "medium",
+                                        "text": "Avg",
+                                        "color": "grey",
+                                        "horizontalAlignment": "center",
+                                        "weight": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "separator": true,
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "spacing": "medium",
+                                        "text": "{panel:Min}",
+                                        "color": "grey",
+                                        "size": "",
+                                        "horizontalAlignment": "center",
+                                        "weight": "default"
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "spacing": "medium",
+                                        "text": "Min",
+                                        "color": "red",
+                                        "horizontalAlignment": "center",
+                                        "weight": "center"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "separator": true,
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "spacing": "medium",
+                                        "text": "{panel:Max}",
+                                        "color": "grey",
+                                        "size": "",
+                                        "horizontalAlignment": "center",
+                                        "weight": "default"
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "spacing": "medium",
+                                        "text": "Max",
+                                        "color": "green",
+                                        "horizontalAlignment": "center",
+                                        "weight": "center"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "config": {
+        "fontFamily": "Open Sans",
+        "fontSizes": {
+            "default": 16,
+            "small": 12,
+            "medium": 22,
+            "large": 32,
+            "extraLarge": 50
+        },
+        "fontWeights": {
+            "default": 400,
+            "light": 200,
+            "bold": 800
+        },
+        "containerStyles": {
+            "default": {
+                "backgroundColor": "#ffffff",
+                "foregroundColors": {
+                    "default": {
+                        "normal": "#000000"
+                    },
+                    "white": {
+                        "normal": "#ffffff"
+                    },
+                    "grey": {
+                        "normal": "#3A4356"
+                    },
+                    "lightgrey": {
+                        "normal": "#9EA2Ab"
+                    },
+                    "orange": {
+                        "normal": "#f2B900"
+                    },
+                    "yellow": {
+                        "normal": "#ffcb05"
+                    },
+                    "black": {
+                        "normal": "#000000"
+                    },
+                    "lightGreen": {
+                        "normal": "#93c0c0"
+                    },
+                    "green": {
+                        "normal": "#54a254"
+                    },
+                    "red": {
+                        "normal": "#dd1111"
+                    },
+                    "accent": {
+                        "normal": "#2E89FC"
+                    },
+                    "good": {
+                        "normal": "#54a254"
+                    },
+                    "warning": {
+                        "normal": "#e69500"
+                    },
+                    "attention": {
+                        "normal": "#cc3300"
+                    }
+                }
+            }
+        },
+        "imageSizes": {
+            "default": 40,
+            "small": 40,
+            "medium": 80,
+            "large": 160
+        },
+        "imageSet": {
+            "imageSize": "medium",
+            "maxImageHeight": 100
+        },
+        "actions": {
+            "color": "",
+            "backgroundColor": "",
+            "maxActions": 5,
+            "spacing": "extraLarge",
+            "buttonSpacing": 30,
+            "actionsOrientation": "horizontal",
+            "actionAlignment": "center",
+            "showCard": {
+                "actionMode": "inline",
+                "inlineTopMargin": 16,
+                "style": "default"
+            }
+        },
+        "spacing": {
+            "default": 5,
+            "small": 5,
+            "medium": 10,
+            "large": 20,
+            "extraLarge": 40,
+            "padding": 0
+        },
+        "separator": {
+            "lineThickness": 2,
+            "lineColor": "#eeeeee"
+        },
+        "factSet": {
+            "title": {
+                "size": "default",
+                "color": "default",
+                "weight": "bold",
+                "warp": true
+            },
+            "value": {
+                "size": "default",
+                "color": "default",
+                "weight": "default",
+                "warp": true
+            },
+            "spacing": 20
+        },
+        "supportsInteractivity": true,
+        "imageBaseUrl": "",
+        "height": 72
+    }
+}
