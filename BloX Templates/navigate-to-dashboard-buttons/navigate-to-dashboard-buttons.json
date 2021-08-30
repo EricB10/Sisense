@@ -1,0 +1,110 @@
+{
+    "style": ".color-change1 {padding: 14px 20px;margin: auto;cursor: not-allowed;background-color: #eeeeee;font-size: 1.5rem;font-family: 'Roboto';border-radius: 4px;font-weight: 600;border: 4px solid #d6001c;transition-duration: 0.7s;-webkit-transition-duration: 0.7s;-moz-transition-duration: 0.7s;}.color-change2 {padding: 14px 20px;margin: auto;cursor: pointer;background-color: #ffffff;font-size: 1.5rem;font-family: 'Roboto';border-radius: 4px;font-weight: 600;border: 4px solid #211551;transition-duration: 0.7s;-webkit-transition-duration: 0.7s;-moz-transition-duration: 0.7s;}.color-change2:hover {border-radius: 4px;background-color: #eeeeee;border: 4px solid #211551;box-shadow: 2px 2px 15px #4d4d4d;}",
+    "script": "",
+    "title": "",
+    "titleStyle": [
+        {
+            "display": "none"
+        }
+    ],
+    "showCarousel": true,
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "padding": "20px"
+            },
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "style": {
+                        "margin-top": "3%",
+                        "justify-content": "center"
+                    },
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "<html><head></head><body><button class='color-change1'><u>Dashboard 1</button></body></html>",
+                                    "size": "small",
+                                    "style": {
+                                        "margin": "0.2em",
+                                        "color": "#000000",
+                                        "font-weight": "bold",
+                                        "font-size": "12px"
+                                    },
+                                    "horizontalAlignment": "right",
+                                    "color": "black"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "<html><head></head><body><button class='color-change2'>Dashboard 2</button></body></html>",
+                                    "size": "small",
+                                    "horizontalAlignment": "center",
+                                    "style": {
+                                        "margin": "0.2em",
+                                        "font-size": "12px"
+                                    },
+                                    "color": "black",
+                                    "selectAction": {
+                                        "type": "JTD",
+                                        "title": "Jump To Dashboard",
+                                        "data": {
+                                            "dashboardId": "6126aba1efbb1500354be3a7",
+                                            "args": {
+                                                "displayDashboardsPane": false,
+                                                "displayFilterPane": true,
+                                                "drilledDashboardDisplayType": 3,
+                                                "mergeTargetDashboardFilters": true
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "<html><head></head><body><button class='color-change2'>Dashboard 3</button></body></html>",
+                                    "size": "small",
+                                    "horizontalAlignment": "left",
+                                    "style": {
+                                        "margin": "0.2em",
+                                        "font-size": "12px"
+                                    },
+                                    "color": "black",
+                                    "selectAction": {
+                                        "type": "JTD",
+                                        "title": "Jump To Dashboard",
+                                        "data": {
+                                            "dashboardId": "6126b353efbb1500354be403",
+                                            "args": {
+                                                "displayDashboardsPane": false,
+                                                "displayFilterPane": true,
+                                                "drilledDashboardDisplayType": 3,
+                                                "mergeTargetDashboardFilters": true
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "actions": []
+}
