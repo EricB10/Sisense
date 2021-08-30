@@ -1,0 +1,87 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "spacing": "small",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "{panel:Avg}",
+                                    "color": "grey",
+                                    "size": "",
+                                    "horizontalAlignment": "center",
+                                    "weight": "default"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "Avg",
+                                    "color": "grey",
+                                    "horizontalAlignment": "center",
+                                    "weight": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "separator": true,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "{panel:Min}",
+                                    "color": "grey",
+                                    "size": "",
+                                    "horizontalAlignment": "center",
+                                    "weight": "default"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "Min",
+                                    "color": "red",
+                                    "horizontalAlignment": "center",
+                                    "weight": "center"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "separator": true,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "{panel:Max}",
+                                    "color": "grey",
+                                    "size": "",
+                                    "horizontalAlignment": "center",
+                                    "weight": "default"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "Max",
+                                    "color": "green",
+                                    "horizontalAlignment": "center",
+                                    "weight": "center"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
