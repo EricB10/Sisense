@@ -1,3 +1,7 @@
+// Name this action 'dynamicGranSwap'
+
+
+
 // Holds the chosen granularity from the selected button 'months' for example
 const dategran = payload.dategran;
 var widgetIds = payload.data.widgetToModify;
