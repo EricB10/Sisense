@@ -19,7 +19,7 @@
                                     "spacing": "medium",
                                     "text": "{panel:Avg}",
                                     "color": "grey",
-                                    "size": "",
+                                    "size": "default",
                                     "horizontalAlignment": "center",
                                     "weight": "default"
                                 },
@@ -42,7 +42,7 @@
                                     "spacing": "medium",
                                     "text": "{panel:Min}",
                                     "color": "grey",
-                                    "size": "",
+                                    "size": "default",
                                     "horizontalAlignment": "center",
                                     "weight": "default"
                                 },
@@ -65,7 +65,7 @@
                                     "spacing": "medium",
                                     "text": "{panel:Max}",
                                     "color": "grey",
-                                    "size": "",
+                                    "size": "default",
                                     "horizontalAlignment": "center",
                                     "weight": "default"
                                 },
