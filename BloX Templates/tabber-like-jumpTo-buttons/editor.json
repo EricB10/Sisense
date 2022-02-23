@@ -1,0 +1,70 @@
+{
+    "style": "",
+    "script": "",
+    "title": "",
+    "showCarousel": true,
+    "body": [
+        {
+            "type": "Container",
+            "style": {
+                "padding": "20px"
+            },
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "spacing": "medium",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "JumpTo01",
+                                    "style": {
+                                        "margin": ".5em",
+                                        "font-size": "24px",
+                                        "font-weight": "bold",
+                                        "color": "#73c167"
+                                    },
+                                    "horizontalAlignment": "right"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "separator": true,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "medium",
+                                    "text": "JumpTo02",
+                                    "style": {
+                                        "margin": ".5em",
+                                        "font-size": "24px",
+                                        "font-weight": "bold",
+                                        "color": "#dfdfdf"
+                                    },
+                                    "horizontalAlignment": "left",
+                                    "selectAction": {
+                                        "type": "JTD",
+                                        "title": "Jump To Dashboard",
+                                        "data": {
+                                            "dashboardId": "6215577553fc430039be647e",
+                                            "args": {
+                                                "displayDashboardsPane": false,
+                                                "displayFilterPane": true,
+                                                "drilledDashboardDisplayType": 3,
+                                                "mergeTargetDashboardFilters": true
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
