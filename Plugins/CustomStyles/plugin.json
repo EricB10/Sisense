@@ -1,0 +1,11 @@
+{
+    "name": "CustomStyles",
+    "source": [],
+    "style": [
+        "buttons.css",
+        "fonts.css"
+    ],
+    "folderName": "CustomStyles",
+    "isEnabled": true,
+    "version": "1"
+}

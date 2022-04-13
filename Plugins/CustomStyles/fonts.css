@@ -1,0 +1,7 @@
+.dashboard-layout widget.columnar widget-header widget-title {
+    font-size: 16px;
+}
+
+.dashboard-layout widget.columnar widget-header .widget-title__holder {
+    font-size: 16px;
+}

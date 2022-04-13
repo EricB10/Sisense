@@ -1,0 +1,19 @@
+/* analytics tab - global scope toggles */
+#prism-rightview > div.prism-persistent-rightview-holder > div > div.auto-updates-host > div.auto-updates-toggle.custom-togglebtn.custom-togglebtn--inline.custom-togglebtn--single > label > span:before {
+    background-color: #051959;
+}
+
+/* analytics tab - filter panel toggles */
+.sis-scope div.custom-togglebtn--invert span.custom-togglebtn__icon {
+    background-color: #051959;
+}
+
+
+
+/* data tab toggles
+body > div > div > div > div > div.rc-tooltip-inner > div > div.BuildMenu__menuContent___3ROJL > div.BuildMenu__sampleData___27mSm > div.BuildMenu__sampleDataHeader___3ncod > div > label > span:before {
+    background-color: pink;
+}
+*/
+
+/* admin tab toggles */
