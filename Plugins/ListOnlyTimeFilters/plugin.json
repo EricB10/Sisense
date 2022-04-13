@@ -1,0 +1,11 @@
+{
+    "name": "listOnlyTimeFilters",
+    "source": [
+        "config.js",
+        "main.js"
+    ],
+    "folderName": "ListOnlyTimeFilters",
+    "version": "0.2",
+    "lastUpdate": "2022-01-19T19:29:52.137Z",
+    "isEnabled": true
+}
