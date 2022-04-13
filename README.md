@@ -1,4 +1,2 @@
 # Sisense
-Plugins, widget scripts, BloX templates
-
-#
+- Plugins, widget scripts, BloX templates
